@@ -54,18 +54,13 @@ CO2 emissions per unit for each product are:
 
 ## Objectives
 
-1. **Develop an optimization model** in Python to determine the production strategy that maximizes profit and reallocates working hours effectively.
+1. **Develop an optimization model** in Matlab to determine the production strategy that maximizes profit and reallocates working hours effectively.
 2. **Adjust the model** to include constraints for reducing CO2 emissions while maintaining the maximum profit.
 3. **Identify a new production strategy** that meets environmental regulations limiting weekly emissions to 4500 ppm.
 
-## Python Libraries and Tools Used
+## Implementation in MATLAB
 
-- **PuLP**: For formulating and solving linear programming problems.
-- **NumPy**: For efficient numerical computations.
-- **Pandas**: For data manipulation and analysis.
-- **Matplotlib/Seaborn**: For visualizing the production and emissions data.
-
-## Model Interpretation
+The model is implemented using MATLAB with the Gurobi solver for high-performance optimization. Gurobi's capabilities allow for efficiently solving large-scale linear programming problems, ensuring that the production plan is optimized for cost-effectiveness.
 
 ### Decision Variables
 
