@@ -78,24 +78,11 @@ CO2 emissions per unit for each product are:
 
 ### Constraints
 
-1. **Production capacity** at each stage with potential reallocation:
-   - Stage A: \( 2x1 + 2x2 + 3x3 + 1x4 \leq 160 + tB_A + tC_A \)
-   - Stage B: \( 2x1 + 4x2 + 3x3 + 2x4 \leq 200 - tB_A \)
-   - Stage C: \( 3x1 + 6x2 + 1x3 + 5x4 \leq 80 - tC_A \)
-
-2. **Reallocation limits**:
-   - \( tB_A \leq 0.2 \times 200 \)
-   - \( tC_A \leq 0.3 \times 80 \)
-
-3. **Production ratios**:
-   - \( x1 \geq 0.9 \times x2 \)
-   - \( x1 \leq 1.15 \times x4 \)
-
-4. **Maximum demand**:
-   - \( x1 \leq 50, x2 \leq 60, x3 \leq 85, x4 \leq 75 \)
-
-5. **CO2 emissions constraint (for regulatory compliance)**:
-   - \( 32x1 + 82x2 + 91x3 + 70x4 \leq 4500 \)
+1. **Production capacity** at each stage with potential reallocation
+2. **Reallocation limits**
+3. **Production ratios**
+4. **Maximum demand**
+5. **CO2 emissions constraint (for regulatory compliance)**
 
 ## Outcomes
 
